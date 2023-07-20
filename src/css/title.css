@@ -1,0 +1,56 @@
+.title__div {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 2rem;
+    justify-content: space-between;
+    padding: 4rem 3rem;
+}
+
+.title__container {
+    padding: 2rem 2rem 2rem 0;
+    width: 65%;
+}
+
+.title__bio {
+    font-size: 5.2rem;
+    line-height: 5.7rem;
+    padding-bottom: 2rem;
+
+}
+
+.title__subsection {
+    font-weight: 400;
+    line-height: 3rem;
+    padding: 3rem 0;
+
+}
+
+.title__network {
+    display: flex;
+    gap: 32px;
+}
+
+.title__network__item {
+    transition: 0.3s ease-in-out;
+}
+
+.title__network__item:hover {
+    font-weight: 500;
+    transform: scale(1.07);
+}
+
+.title__profile {
+    border-radius: 50%;
+    box-shadow: 3px 5px 10px var(--default-font-color);
+    width: 350px;
+}
+
+.skills__title,
+.hobbies__title,
+.academic__title,
+.experience__section__title {
+    font-size: 3.2rem;
+    margin: 2rem;
+    text-align: center;
+}

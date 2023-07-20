@@ -1,0 +1,55 @@
+.experience {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencie__box {
+    display: flex;
+    padding: 4rem;
+}
+
+.experiencie__box--reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4rem;
+}
+
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    justify-content: center;
+}
+
+.experience__text {
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.experiencia__botao--repo {
+    border: 1px solid var(--blue-color);
+    color: var(--blue-color);
+    font-size: 1.6rem;
+    margin: 1rem;
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.experiencia__botao--repo:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+}
+
+.experiencia__botao--demo {
+    background-color: var(--blue-color);
+    color: var(--background-color);
+    font-size: 1.6rem;
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.experiencia__botao--demo:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+}

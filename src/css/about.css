@@ -1,0 +1,19 @@
+.about {
+    background-color: var(--second-background-color);
+}
+
+.about__container {
+    line-height: 2.2rem;
+    padding: 3rem;
+    width: 65%;
+}
+
+.about__title {
+    font-size: 2.8rem;
+    padding-bottom: 3rem;
+}
+
+.about__paragraph {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}

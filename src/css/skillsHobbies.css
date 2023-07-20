@@ -1,0 +1,34 @@
+.skills,
+.hobbies {
+    padding: 3rem;
+}
+
+.skills__line,
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.skills__box,
+.hobbies__box {
+    align-items: flex-end;
+    background-color: #fff;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 700;
+    height: 174px;
+    line-height: 2.5rem;
+    padding: 1rem;
+    transition: 0.3s ease-in-out;
+    width: 176px;
+
+}
+
+.skills__box:hover,
+.hobbies__box:hover {
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.09);
+}

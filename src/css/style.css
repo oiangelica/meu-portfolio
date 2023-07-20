@@ -1,0 +1,148 @@
+/*CSS Reset / Normalize*/
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+@import url("reset.css");
+@import url("menu.css");
+@import url("title.css");
+@import url("about.css");
+@import url("skillsHobbies.css");
+@import url("courses.css");
+@import url("projects.css");
+@import url("contact.css");
+@import url("footer.css");
+
+
+:root{
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --background-color: #F5F5F5;
+   --blue-color: #2A7AE4; 
+   --dark-blue-color: #144d98;
+   --dark-grey: #C8C8C8;
+   --default-font-color: #464646;
+   --second-background-color: #EAF2FD;
+}
+
+html {
+    background-color: var(--background-color);
+    font-size: 62.5%;
+}
+
+body {
+    color: var(--default-font-color);
+    font-family: 'Raleway', sans-serif;   
+    font-size: 1.6rem;        
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 3%;
+}
+
+button{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
+de utiliza-la. 
+
+Mas o que é o BEM?
+
+BEM (Block, Element, Modifier) ​​é uma abordagem baseada em componentes para o desenvolvimento
+web. A ideia por trás disso é dividir a interface do usuário em blocos independentes.
+Isso torna o desenvolvimento de interface fácil e rápido, mesmo com uma interface
+de usuário complexa, e permite a reutilização de código existente sem copiar e colar.
+
+Link da documentação oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sessão Menu*/
+
+section.menu{
+
+}
+
+/*Sessão Title*/
+
+section.title{
+
+}
+
+/*Sessão About*/
+
+section.about{
+
+}
+
+/*Sessão Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiência Acadêmica*/
+
+section.academic{
+
+}
+
+/* experiência*/
+
+section.experience{
+
+}
+
+/*Contato*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menu */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Experiências acadêmicas*/
+
+/*Expeirência profissional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sessão sobre*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formação Acadêmica*/
+
+/*Experiência Profissional*/
+
+ /*Contato*/
+
+/*Footer*/
+
+}
