@@ -4,7 +4,7 @@
 }
 
 .formcontato__contacto {
-    display: flex;
+    display: flex;    
 }
 
 .formcontato__form {
@@ -21,13 +21,17 @@
     font-weight: 500;
     margin: 1rem 3rem;
 }
+.formcontato__campo{
+    display: flex;
+    flex-direction: column;
+}
 
 .formcontato__input {
     border: none;
     border-bottom: 2px solid var(--dark-grey);
     border-radius: 4px;
     font-family: 'Raleway', sans-serif;
-    margin: 2rem 3rem;
+    margin: 3rem 3rem 5px;
     padding: 2rem;
 
 }
@@ -49,7 +53,7 @@
     border-bottom: 2px solid var(--dark-grey);
     border-radius: 4px;
     font-family: 'Raleway', sans-serif;
-    margin: 2rem 3rem;
+    margin: 3rem 3rem 5px;
     padding: 2rem;
 
 }
@@ -70,7 +74,7 @@
     background-color: var(--blue-color);
     color: var(--background-color);
     font-size: 1.6rem;
-    margin: 1rem 3rem;
+    margin: 2rem 3rem;
     max-width: 200px;
     padding: 15px;
     transition: 0.3s ease-in-out
@@ -81,13 +85,8 @@
     cursor: pointer;
 }
 
-/* .formcontato__label{ 
-  /* position: absolute; 
-  color: var(--label-color);
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  top: 30px;
-  left: 12px;
-  transition: all 0.3s ease-out; 
-} */
+.campo-mensagem-erro { 
+    color: #ff0000;
+    font-size: 1.5rem;
+    padding-left: 4rem;
+}

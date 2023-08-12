@@ -1,7 +1,3 @@
-/*CSS Reset / Normalize*/
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
-
 @import url("reset.css");
 @import url("menu.css");
 @import url("title.css");
@@ -14,8 +10,6 @@ coloque nas sessões indicadas*/
 
 
 :root{
-    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --background-color: #F5F5F5;
    --blue-color: #2A7AE4; 
    --dark-blue-color: #144d98;
@@ -43,69 +37,6 @@ button{
 }
 
 
-/*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
-de utiliza-la. 
-
-Mas o que é o BEM?
-
-BEM (Block, Element, Modifier) ​​é uma abordagem baseada em componentes para o desenvolvimento
-web. A ideia por trás disso é dividir a interface do usuário em blocos independentes.
-Isso torna o desenvolvimento de interface fácil e rápido, mesmo com uma interface
-de usuário complexa, e permite a reutilização de código existente sem copiar e colar.
-
-Link da documentação oficial!
-https://en.bem.info/methodology/quick-start/*/
-
-/*Sessão Menu*/
-
-section.menu{
-
-}
-
-/*Sessão Title*/
-
-section.title{
-
-}
-
-/*Sessão About*/
-
-section.about{
-
-}
-
-/*Sessão Hobbies*/
-
-section.hobbies{
-    
-}
-
-/* Experiência Acadêmica*/
-
-section.academic{
-
-}
-
-/* experiência*/
-
-section.experience{
-
-}
-
-/*Contato*/
-
-section.formcontato{
-
-}
-
-/*footeer*/
-
-section.footer{
-   
-}
-
-/* Chegou a hora de se desafiar com a responsividade, 
-utilize como referência os breakpoints @media abaixo*/
 
 /*Tablet*/
 @media (min-width: 768px) {
