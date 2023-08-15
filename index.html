@@ -14,7 +14,7 @@
 
     <!-- Fonte do Projeto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-
+    
     <title>Angélica Coelho</title>
 </head>
 
@@ -42,8 +42,19 @@
 
         <!-- Sessão de Header/Title/Hero -->
         <section class="title">
-            <div class="title__div">
-                <img class="title__profile" src="./src/img/profile.png" alt="Imagem de rosto em que a pessoa apresentada aparece sorrindo">
+            <div class="title__div">   
+
+                <div class="title__div__image-profile  flip" id="profile-animation">
+
+                    <div class="title__profile--front title__profile">
+                        <img class="title__profile__image" src="./src/img/profile.png" alt="Imagem de rosto em que a pessoa apresentada aparece sorrindo">
+                    </div>
+                    <!-- <div class="title__profile--back title__profile" >
+                        <p class="title__back__paragraph">Olá, Estou feliz por <br> você estar aqui!</p>
+                        <img src="src/img/icons/happy-icon.png" alt="imagem de um emoji feliz" class="title__back__icon">
+                    </div> -->
+                </div>
+                
                 <div class="title__container" id="#sobremim">
                     <h2 class="title__bio">Olá, meu nome é Angélica Coelho e construo páginas web </h2>
                     <h3 class="title__subsection">Eu sou uma desenvolvedora web Frontend, atualmente estou finalizando o
@@ -251,14 +262,14 @@
         <section class="formcontato">
             <div id="contato" class="formcontato__contacto">
                 <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="src/img/contact_image.png" alt="Imagem de um telefone com fio">
+                    <img class="formcontato__img" src="src/img/tolefone-vermelho.jpg" alt="Imagem de um telefone vermelho com fio de mola">
                 </div>
                 <div class="formcontato__text">
                     <h2 class="formcontato__title">Contato</h2>
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtext">Preencha o formulário a baixo corretamente e entrarei em contato o mais rápido possível. </h3>
 
-                    <form class="formcontato__form" action="https://formsubmit.co/e0fef486ce05e6b8a8c6b5d976f4518e" method="POST" data-formulario>
+                    <form class="formcontato__form"  action="https://formsubmit.co/e0fef486ce05e6b8a8c6b5d976f4518e" method="POST" data-formulario>
 
                         <filedset class="formcontato__campo">
                             <input class="formcontato__input" type="text" id="nome" name="nome" placeholder="Nome" minlength="4" maxlength="50" required data-campo-input>
@@ -280,7 +291,7 @@
                             <span class="campo-mensagem-erro"></span>
                         </filedset>
 
-                        <button class="formcontato__botao" type="submit" data-bota-formulario >Enviar mensagem</button>
+                        <button class="formcontato__botao" type="submit" data-botao-formulario >Enviar mensagem</button>
                         
                         <input type="hidden" name="_subject" value="Contato do Portfólio">
                         <input type="text" name="_honey" style="display: none;">
@@ -293,13 +304,14 @@
         <!-- Sessão de Footer/Rodapé-->
         <section class="footer">
             <div class="footer__rodape">
-                <p>Desenvolvido por Angélica Coelho</p>
+                <p>Desenvolvido por <br> <a href="https://github.com/oiangelica" class="footer--nome"> <img src="src/img/icons/github_icon.png" alt="Ícone github" class="footer__github-icon">Angélica Coelho</a></p>
                 <p>2023</p>
             </div>
         </section>
         </div>
         <!-- Script Linkado do seu documento de JavaScript -->
         <script src="./src/js/validate.js"></script>
+        <!-- <script src="./src/js/flipProfile.js"></script> -->
 </body>
 
 </html>

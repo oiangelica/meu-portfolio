@@ -40,12 +40,6 @@
     transform: scale(1.07);
 }
 
-.title__profile {
-    border-radius: 50%;
-    box-shadow: 3px 5px 10px var(--default-font-color);
-    width: 350px;
-}
-
 .skills__title,
 .hobbies__title,
 .academic__title,

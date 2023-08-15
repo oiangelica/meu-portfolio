@@ -5,3 +5,19 @@
     padding: 3.2rem;
     text-align: center;
 }
+
+.footer__github-icon{
+    width: 15px;
+    
+}
+
+.footer--nome { 
+    color: var(--dark-blue-color);
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+.footer--nome:hover { 
+    color:#599bf1;
+    transform: scale(1.1);
+}

@@ -1,4 +1,4 @@
-const formulario = document.querySelector("[data-formulario]");
+const formulario = document.querySelector("[data-botao-formulario]");
 const camposFormulario = document.querySelectorAll("[required]");
 
 formulario.addEventListener("submit", (e) => {
@@ -66,9 +66,6 @@ function verificaCampo(campo) {
         mensagemErro.textContent = ""; 
         campoInput.style.borderBottom = "2px solid #C8C8C8";
     }
-    // if(campo.validity.tooLong){ 
-    //     mensagemErro.textContent = "Você ultrapassou o limite de caracteres permitidos!"
-    //     campoInput.style.borderBottom = "2px solid #C8C8C8";
-    // }
+   
 }
 

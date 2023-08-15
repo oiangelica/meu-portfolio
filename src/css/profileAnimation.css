@@ -1,0 +1,51 @@
+ .title__div__image-profile /*card*/ { 
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+}
+
+.title__profile /* face */{ 
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 350px;    
+    /* position: absolute;    */
+    width: 350px;
+}
+
+.title__profile__image {
+    border-radius: 50%;
+    box-shadow: 3px 5px 10px var(--default-font-color);
+     
+}
+.title__profile--front{
+    transform: rotateY(180deg);   
+    z-index: 1;
+}
+
+.title__profile--back{
+    background-color: var(--second-background-color);    
+    border-radius: 50%;
+    box-shadow: 3px 5px 10px var(--default-font-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 370px;
+    width: 370px;
+}
+.title__back__paragraph{
+    color: var(--dark-blue-color);
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.title__back__icon{
+    margin: 1rem;
+}   
+
+.flip {
+    transform: rotateY(180deg);    
+}
+
