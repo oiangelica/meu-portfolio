@@ -2,6 +2,8 @@
 
 <p>Olá pessoas, com muita alegria venho compartilhar com vocês o meu primeiro portfólio que ainda está em desenvolvimento. </p>
 <img src="src/img/readme.gif" alt="gif mostrando interface do projeto">
+<p><a href="https://oiangelica.github.io/meu-portfolio/" target="_blank">Clique aqui para conferir o resultado.</a> </p>
+
 <p>O layout foi fornecido pela Alura no programa Oracle Next Education como forma de colocar em prática alguns conhecimentos que foi aprendido ao longo da primeira fase da especialização em frontend, como por exemplo: </p>
 
 <li> Posicionamento dos elementos.
